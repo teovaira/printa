@@ -2,6 +2,6 @@ package printa
 
 import "fmt"
 
-func printchar(s string) {
-	fmt.Print(s)
+func PrintChar(s rune) {
+	fmt.Printf("%C", s)
 }
